@@ -13,19 +13,86 @@
 
 .col-flex-override {
     display: flex;
+    align-self: center;
 }
 
 .bg-wood {
-    background-image: url(/assets/BG-Wood.jpg);
-    height: 25rem;
+    background: url(/assets/BG-Wood1.jpg);
+    /* height: 25rem; */
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    justify-content: space-around;
 }
 
 .bg-color-dark {
     background: rgb(66, 66, 66);
+    height: 30rem;
+}
+* {
+    font-family: 'Playfair Display', serif;
 }
 
-.bg-syrup {
-  background-image: url(/assets/syrup.png);
-  background-size: 100%;
+.row-space-around {
+    display: flex;
+    justify-content: space-around;
 }
+
+.bg-subtle {
+    background: url(/assets/subtle.png);
+    background-repeat: no-repeat;
+}
+
+.card-1 {
+    background-image: url(/assets/card1.jpg);
+    opacity: 0.5;
+    height: 25rem;
+    color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-1:hover {
+    box-shadow: 0px 0px 30px black;
+    opacity: 1.0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    border-radius: 0px;
+  }
+
+  .card-2 {
+    background-image: url(/assets/card2.jpg);
+    opacity: 0.5;
+    height: 25rem;
+    color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-2:hover {
+    box-shadow: 0px 0px 30px black;
+    opacity: 1.0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    border-radius: 0px;
+  }
+
+  .card-3 {
+    background-image: url(/assets/card3.jpg);
+    opacity: 0.5;
+    height: 25rem;
+    color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-3:hover {
+    box-shadow: 0px 0px 30px black;
+    opacity: 1.0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    border-radius: 0px;
+  }

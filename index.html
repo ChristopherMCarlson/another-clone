@@ -6,39 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Another Clone</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/arrows.css">
 </head>
 <body>
     <header>
-        <div class="container pt-3 pb-3">
+        <div class="container-fluid pt-3 pb-3">
             <div class="row head-size">
-                <div class="col-sm-6 text-center">
+                <div class="col-sm-2 offset-sm-2 text-center">
                     <img src="/assets/logo.png" class="img-fluid force-resize" alt="">
                 </div>
-                <div class="col-sm-1 text-center col-flex-override">
+                <div class="col-sm-1 text-center justify-content-center col-flex-override">
                     <p class="align-self-center">Work</p>
                 </div>
-                <div class="col-sm-1 text-center col-flex-override">
+                <div class="col-sm-1 text-center justify-content-center col-flex-override">
                     <p class="align-self-center">About</p>
                 </div>
-                <div class="col-sm-1 text-center col-flex-override">
+                <div class="col-sm-1 text-center justify-content-center col-flex-override">
                     <p class="align-self-center">Expertise</p>
                 </div>
-                <div class="col-sm-1 text-center col-flex-override">
+                <div class="col-sm-1 text-center justify-content-center col-flex-override">
                     <p class="align-self-center">Blog</p>
                 </div>
-                <div class="col-sm-1 text-center col-flex-override">
+                <div class="col-sm-1 text-center justify-content-center col-flex-override">
                     <p class="align-self-center">Store</p>
                 </div>
-                <div class="col-sm-1 text-center col-flex-override">
+                <div class="col-sm-1 text-center justify-content-center col-flex-override">
                     <p class="align-self-center">Contact</p>
                 </div>
             </div>
         </div>
     </header>
     <div id="syrup">
-        <div class="container bg-wood">
-            <div class="row">
+        <div class="container-fluid bg-wood mb-3">
+            <div class="row d-flex justify-content-around">
                 <div class="col-sm-6 text-white align-self-center">
                     <h1 class="text-center">
                         Crown Maple
@@ -47,22 +49,45 @@
                         Not All Crowns Are Created Equal
                     </p>
                 </div>
-                <div class="col-sm-6 text-center bg-syrup">
-                    <!-- <img src="/assets/syrup.png"  class="img-fluid force-resize" alt=""> -->
+                <div class="col-sm-6">
+                    <img src="/assets/syrup.png"  class="img-fluid" alt="">
                 </div>
             </div>
         </div>
     </div>
     <div id="about">
-        <div class="container bg-color-dark">
-            <div class="row">
-                <div class="col-sm-8 offset-sm-2 col-flex-override pt-5 pb-5">
-                    <h1 class="text-center text-white">
+        <div class="container-fluid bg-color-dark    align-self-center">
+            <div class="row d-flex justify-content-around">
+                <div class="col-sm-8">
+                    <h1 class="text-white">
                         We are artists who specialize in branding and packaging design. We help brands present their stories in ways that are effective and honest, novel and established.
+                        <button type="button" class="btn btn-default">Learn More</button>
                     </h1>
                 </div>
             </div>
         </div>
     </div>
+    <div id="cards">
+        <div class="container-fluid bg-subtle">
+            <div class="row pb-5 pt-5 d-flex justify-content-around">
+                <div class="col-sm-3 justify-content-center card-1">
+                    <div class="align-self-center">
+                        <h2 class="text-center">Blog</h2>
+                    </div>
+                </div>
+                <div class="col-sm-3 justify-content-center card-2">
+                    <div class="align-self-center">
+                        <h2 class="text-center">Office</h2>
+                    </div>
+                </div>
+                <div class="col-sm-3 justify-content-center card-3">
+                    <div class="align-self-center">
+                        <h2 class="text-center">Expertise</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
