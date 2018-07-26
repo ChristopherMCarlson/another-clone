@@ -1,0 +1,26 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+.head-size {
+    height: 5rem;
+}
+
+.force-resize {
+    height: 100%;
+    width: auto;
+}
+
+.col-flex-override {
+    display: flex;
+}
+
+.bg-wood {
+    background-image: url(/assets/BG-Wood.jpg);
+    height: 25rem;
+    display: flex;
+}
+
+.bg-color-dark {
+    background: rgb(66, 66, 66);
+}
