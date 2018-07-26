@@ -43,56 +43,54 @@
     background-repeat: no-repeat;
 }
 
-.card-1 {
-    background-image: url(/assets/card1.jpg);
-    opacity: 0.5;
-    height: 25rem;
+.mycard{
+    height: 25vw;
+    width: 25vw;
     color: black;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    transition: all .2s linear;
+    align-items: center;
+    color: black;
+    text-shadow:  white 0.1em 0.1em 0.2em;
+    position: relative;
+}
+.card-1 {
+    background-image: url(/assets/card1.jpg);  
 }
 
-.card-1:hover {
-    box-shadow: 0px 0px 30px black;
-    opacity: 1.0;
+.mycard:hover {
+    box-shadow: 0px 0px 30px rgb(44, 44, 44);
     text-shadow: black 0.1em 0.1em 0.2em;
     color: white;
     border-radius: 0px;
+    position: relative;
+  }
+
+  .mycard::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(255,255,255,.4);
+      transition: all .2s linear;
+  }
+  .mycard:hover::after{
+      background-color: transparent;
   }
 
   .card-2 {
     background-image: url(/assets/card2.jpg);
-    opacity: 0.5;
-    height: 25rem;
-    color: black;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
-.card-2:hover {
-    box-shadow: 0px 0px 30px black;
-    opacity: 1.0;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    color: white;
-    border-radius: 0px;
-  }
 
   .card-3 {
     background-image: url(/assets/card3.jpg);
-    opacity: 0.5;
-    height: 25rem;
-    color: black;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.card-3:hover {
-    box-shadow: 0px 0px 30px black;
-    opacity: 1.0;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    color: white;
-    border-radius: 0px;
-  }
+.overlay{
+    background-color: white;    
+}
