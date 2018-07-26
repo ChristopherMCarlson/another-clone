@@ -24,3 +24,8 @@
 .bg-color-dark {
     background: rgb(66, 66, 66);
 }
+
+.bg-syrup {
+  background-image: url(/assets/syrup.png);
+  background-size: 100%;
+}
