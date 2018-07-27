@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 1px solid red;
-} */
+}
 
 .head-size {
     height: 5rem;
@@ -28,9 +28,6 @@
 .bg-color-dark {
     background: rgb(66, 66, 66);
     height: 30rem;
-}
-* {
-    font-family: 'Playfair Display', serif;
 }
 
 .row-space-around {
@@ -93,4 +90,13 @@
 
 .overlay{
     background-color: white;    
+}
+
+.bg-color-dark-foot {
+    background: rgb(66, 66, 66);
+    height: 5rem;
+}
+
+.main-font {
+    font-family: 'Playfair Display', serif;
 }
