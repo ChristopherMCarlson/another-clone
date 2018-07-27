@@ -17,7 +17,7 @@
 }
 
 .bg-wood {
-    background: url(/assets/BG-Wood1.jpg);
+    background: url(BG-Wood1.jpg);
     /* height: 25rem; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@
 }
 
 .bg-subtle {
-    background: url(/assets/subtle.png);
+    background: url(subtle.png);
     background-repeat: no-repeat;
 }
 
@@ -55,7 +55,7 @@
     position: relative;
 }
 .card-1 {
-    background-image: url(/assets/card1.jpg);  
+    background-image: url(card1.jpg);  
 }
 
 .mycard:hover {
@@ -81,11 +81,11 @@
   }
 
   .card-2 {
-    background-image: url(/assets/card2.jpg);
+    background-image: url(card2.jpg);
 }
 
   .card-3 {
-    background-image: url(/assets/card3.jpg);
+    background-image: url(card3.jpg);
 }
 
 .overlay{
